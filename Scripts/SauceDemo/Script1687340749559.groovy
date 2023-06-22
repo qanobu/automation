@@ -49,7 +49,8 @@ for (i = 1; i <= 3; i++) {
     WebUI.click(findTestObject('Object Repository/logout'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-	//cobangepushryan	
+	//cobangepushryan
+	//sekarang dari QAnobu
 }
 
 
