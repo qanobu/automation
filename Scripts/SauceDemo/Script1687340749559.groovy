@@ -43,11 +43,13 @@ for (i = 1; i <= 3; i++) {
     WebUI.click(findTestObject('Object Repository/burger button'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 	
-	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar3.png') //Gambar 3
+    WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar3.png') //Gambar 3
 	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 	
     WebUI.click(findTestObject('Object Repository/logout'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+	//cobangepushryan	
 }
 
 
