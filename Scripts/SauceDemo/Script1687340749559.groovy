@@ -22,31 +22,31 @@ WebUI.openBrowser('https://www.saucedemo.com/')
 WebUI.maximizeWindow()
 
 for (i = 1; i <= 3; i++) {
-    user = findTestData('sample_satu').getValue(1, i)
-    pass = findTestData('sample_satu').getValue(2, i)
+    user = findTestData('user_list').getValue(1, i)
+    pass = findTestData('user_list').getValue(2, i)
 
-    WebUI.setText(findTestObject('Object Repository/FDS/txt_mail'), user)
+    WebUI.setText(findTestObject('Object Repository/username'), user)
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.setText(findTestObject('Object Repository/FDS/txt_password'), pass)
+	
+    WebUI.setText(findTestObject('Object Repository/pass'), pass)
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar1.png') //Gambar 1
 	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/FDS/click_login'))
+    WebUI.click(findTestObject('Object Repository/buttonlgn'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar2.png') //Gambar 2
 	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/FDS/burger'))
+    WebUI.click(findTestObject('Object Repository/burger button'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar3.png') //Gambar 3
 	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Object Repository/FDS/logout'))
+	
+    WebUI.click(findTestObject('Object Repository/logout'))
     WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 }
 
