@@ -19,3 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.saucedemo.com/')
 
+WebUI.setText(findTestObject('username'), 'standard_user')
+
+WebUI.setText(findTestObject('pass'), 'secret_sauce')
+
+WebUI.click(findTestObject('buttonlgn'))
+
