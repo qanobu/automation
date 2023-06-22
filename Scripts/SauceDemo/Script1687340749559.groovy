@@ -19,9 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('username'), 'standard_user')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('pass'), 'secret_sauce')
+for (i = 1; i <= 3; i++) {
+    user = findTestData('sample_satu').getValue(1, i)
+    pass = findTestData('sample_satu').getValue(2, i)
 
-WebUI.click(findTestObject('buttonlgn'))
+    WebUI.setText(findTestObject('Object Repository/FDS/txt_mail'), user)
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Object Repository/FDS/txt_password'), pass)
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar1.png') //Gambar 1
+	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/FDS/click_login'))
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar2.png') //Gambar 2
+	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/FDS/burger'))
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.takeScreenshot('D:\\sekringsut\\katalon_gambar3.png') //Gambar 3
+	WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.click(findTestObject('Object Repository/FDS/logout'))
+    WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+}
+
 
