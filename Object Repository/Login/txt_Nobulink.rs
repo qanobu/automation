@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Nobulink</name>
+   <tag></tag>
+   <elementGuidId>36688476-8117-434f-a0e1-f91a839fe20f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[1]/div/p[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[1]/div/p[1]</value>
+      <webElementGuid>c30de5ea-5a54-4027-be89-e8b3f6b58bca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

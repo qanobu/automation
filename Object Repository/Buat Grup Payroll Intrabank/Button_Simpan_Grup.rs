@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Simpan_Grup</name>
+   <tag></tag>
+   <elementGuidId>a779b46e-60e2-422b-9338-d178f315ccee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[2]/button</value>
+      <webElementGuid>42a8c518-9e6c-4e15-a5b7-4188ad5e9596</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

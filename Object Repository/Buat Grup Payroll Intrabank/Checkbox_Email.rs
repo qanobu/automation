@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Checkbox_Email</name>
+   <tag></tag>
+   <elementGuidId>19971a5b-64f7-43a8-a65b-b4d14216ed28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[1]/div/label/span[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[1]/div/label/span[1]/input</value>
+      <webElementGuid>5a7f2ebb-fcd7-46a4-bb9c-fabcae357265</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Masuk</name>
+   <tag></tag>
+   <elementGuidId>11aa551b-91b3-418e-9b26-c93fe25ada57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[1]/div/div[1]/form/div[5]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[1]/div/div[1]/form/div[5]/button</value>
+      <webElementGuid>134c64bc-ef4b-4f96-b54a-457a7d406e33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

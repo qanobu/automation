@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_Grup_Transfer</name>
+   <tag></tag>
+   <elementGuidId>d114eb8a-955f-4ad2-89cc-c15639f17195</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[1]/div[1]/div[1]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[1]/div[1]/div[1]/div</value>
+      <webElementGuid>721fc22a-1ee5-42bd-b174-6204764f94c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

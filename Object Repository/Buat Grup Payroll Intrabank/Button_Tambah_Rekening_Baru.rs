@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Tambah_Rekening_Baru</name>
+   <tag></tag>
+   <elementGuidId>4a7a8535-6b79-428b-b9c9-69e9d9b4c3da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[2]/div</value>
+      <webElementGuid>f74f0ce8-6d87-4a22-b2a1-656aa8b338b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

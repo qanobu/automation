@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Field_Nominal_Transfer</name>
+   <tag></tag>
+   <elementGuidId>89f259f4-5d31-4fda-a376-83c2e199a887</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[4]/div[2]/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[4]/div[2]/div/div/input</value>
+      <webElementGuid>74f229d9-53b0-4e30-83bf-4a1f5b8eef9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

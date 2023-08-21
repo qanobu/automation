@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ID_Perusahaan</name>
+   <tag></tag>
+   <elementGuidId>bb2f0be6-2529-4b46-b39b-c2b2ed08ebfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;corporateID&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;corporateID&quot;]</value>
+      <webElementGuid>c5ca5e0a-1a3e-4dc1-b56f-489687fdae4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

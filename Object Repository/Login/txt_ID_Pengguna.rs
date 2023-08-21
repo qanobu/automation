@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_ID_Pengguna</name>
+   <tag></tag>
+   <elementGuidId>88f1bb1c-66b7-47cc-bff9-d4957f6706f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;userID&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;userID&quot;]</value>
+      <webElementGuid>05b91279-e866-4a62-bc36-410d8daf207f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

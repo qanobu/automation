@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_Sesama_Mata_Uang</name>
+   <tag></tag>
+   <elementGuidId>637e0066-778e-4cdc-9682-61b3f30404cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[2]/ul/div[7]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/div/div[1]/div[2]/div/div[2]/ul/div[7]/div/div/div/div</value>
+      <webElementGuid>66d20b89-4bf5-4939-8848-67afd88eae07</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

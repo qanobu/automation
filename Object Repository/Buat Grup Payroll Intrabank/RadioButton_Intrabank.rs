@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RadioButton_Intrabank</name>
+   <tag></tag>
+   <elementGuidId>81d87ec3-bcd5-443f-9c48-e11d32204d2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[3]/div[1]/label/span[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>/html/body/div[2]/div[3]/div/form/div[1]/div/div[3]/div[1]/label/span[1]/input</value>
+      <webElementGuid>558b9e6e-1d6b-4fb0-9905-b3d8398576bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
