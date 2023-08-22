@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Field_Grup_Transfer'))
 
 WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nama_Grup'), '')
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita_Payroll'), '')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita_Payroll'), 'tekoktek')
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/RadioButton_Intrabank'))
 
