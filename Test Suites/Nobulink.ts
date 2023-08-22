@@ -19,9 +19,93 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1bb387bd-1fad-4cbf-aa01-061c4165930b</guid>
+      <guid>cd65620c-c00a-4cc6-ac6b-7c202864fb78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Login - Copy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7ed3b8e-e3da-4f9a-92a0-d4f60d1ed9f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8801c4e5-410f-40df-9f40-c0c44258072e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7721df4-6149-4098-9813-2055f7350eb7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e7713230-5b19-4c72-9a36-7def21eccfd1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Buat_Grup_Payroll_Intrabank</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DF_Buat_Grup_Payroll</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nama_Grup</value>
+         <variableId>91857d39-1630-4341-8d11-03e98663b812</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Berita_Payroll</value>
+         <variableId>389bcd8b-00d9-4263-81db-34d9beac5c44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nomor_rekening</value>
+         <variableId>cc38707f-7b03-4a0d-b5aa-477c3b4d8b26</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nominal_Transfer</value>
+         <variableId>2f18b9cf-5534-41af-8f21-1cd1a58f477b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Berita</value>
+         <variableId>c9110b56-52c6-4197-b669-e0a5b317987b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5dd79f37-4ca5-4e13-bf2d-5bae551686e2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>415972e4-cb99-40f5-8479-dad9eb36644b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e23f5e51-070d-47f7-a424-09914cc186a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bb387bd-1fad-4cbf-aa01-061c4165930b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

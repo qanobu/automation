@@ -25,25 +25,31 @@ WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Button_Buat_Grup_Payroll
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Field_Grup_Transfer'))
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nama_Grup'), '')
+WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Nomor_Rekening'))
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita_Payroll'), 'tekoktek')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nama_Grup'), Nama_Grup)
+
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita_Payroll'), Berita_Payroll)
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/RadioButton_Intrabank'))
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nomor_Rekening'), '')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nomor_Rekening'), Nomor_Rekening)
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nominal_Transfer'), '')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Nominal_Transfer'), Nominal_Transfer)
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita'), '')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Berita'), Berita)
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Checkbox_Email'))
 
-WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Email'), '')
+WebUI.setText(findTestObject('Buat Grup Payroll Intrabank/Field_Email'), Email)
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Button_Tambah_Rekening_Baru'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Buat Grup Payroll Intrabank/Button_Simpan_Grup'))
+
+WebUI.delay(5)
+
+WebUI.verifyTextPresent(Nama_Grup, false)
 
